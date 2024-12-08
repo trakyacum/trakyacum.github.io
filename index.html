@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatting Site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Header -->
+        <header class="chat-header">
+            <h1>Chatting Site</h1>
+            <p>A simple chat interface</p>
+        </header>
+
+        <!-- Chat Messages -->
+        <main class="chat-main" id="chat-main">
+            <div id="messages" class="messages">
+                <!-- Messages will appear here -->
+            </div>
+        </main>
+
+        <!-- Message Input -->
+        <footer class="chat-footer">
+            <form id="chat-form">
+                <input 
+                    type="text" 
+                    id="msg" 
+                    placeholder="Type a message..." 
+                    autocomplete="off" 
+                    required>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
